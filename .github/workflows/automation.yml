@@ -4,4 +4,5 @@ jobs:
   ega:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
